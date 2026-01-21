@@ -14,3 +14,5 @@ dist/
 venv/
 env/
 ENV/
+
+upload.sh
