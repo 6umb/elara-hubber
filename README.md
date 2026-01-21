@@ -17,7 +17,7 @@ Elara is an enterprise-grade asynchronous Python wrapper for the Hubber.cc API. 
 ## Installation
 
 ```bash
-pip install python-socketio aiohttp
+pip install hubber.py python-socketio aiohttp
 ```
 
 ## Quick Start
