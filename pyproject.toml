@@ -3,24 +3,23 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "hubber.py"
-version = "0.1.0"
+name = "hubber-py"
+version = "0.1.1"
 description = "A Discord-like bot framework for Hubber"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = { text = "MIT" }
+
 authors = [
-    {name = "lane", email = "rsalol@proton.me"}
+    { name = "lane", email = "rsalol@proton.me" }
 ]
+
 classifiers = [
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
 dependencies = [
     "aiohttp>=3.8.0",
     "websockets>=10.0",
@@ -32,4 +31,3 @@ Repository = "https://github.com/6umb/elara-hubber"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["elara*"]
